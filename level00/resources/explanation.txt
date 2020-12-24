@@ -1,0 +1,19 @@
+Finding all user files:
+
+find / -user flag00 2>/dev/null
+/usr/sbin/john
+/rofs/usr/sbin/john
+
+cat /usr/sbin/john
+cdiiddwpgswtgt
+
+su flag00
+password incorrect
+
+trying first decryption on site from tutorial video dcode.fr (https://www.dcode.fr/chiffre-cesar)
++15 ROT gives us working password
+nottoohardhere
+
+su flag00
+getflag
+Check flag.Here is your token : x24ti5gi3x0ol2eh4esiuxias
