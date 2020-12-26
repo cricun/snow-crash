@@ -1,0 +1,6 @@
+john the ripper
+wireshark
+gdb ./a.out
+strace ./a.out
+ltrace ./a.out
+objdump -d

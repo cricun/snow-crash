@@ -1,0 +1,14 @@
+token looks like encrypted
+binary file level09 encrypts string
+
+trying to encrypt multiple values we figured out algorithm for encryption:
+each char is shifted in ASCII table to right by its index (aaaa -> abcd)
+
+so we created python script to decrypt (shift chars back)
+
+after decryption we got password:
+f3iji1ju5yuevaus41q1afiuq
+
+su flag09
+getflag
+Check flag.Here is your token : s5cAJpM8ev6XHw998pRWG728z

